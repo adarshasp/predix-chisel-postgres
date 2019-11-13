@@ -180,3 +180,7 @@ Example for Postico:
 * user: username from VCAP_SERVICES
 * password: password from VCAP_SERVICES
 * database: database name from VCAP_SERVICES
+Sample
+./chisel_windows_386 client -v --proxy http://proxy:port --keepalive 3s https://chiselurl 4001:10.80.14.169:5432
+
+
